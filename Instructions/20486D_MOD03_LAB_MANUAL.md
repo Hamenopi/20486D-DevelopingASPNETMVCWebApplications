@@ -468,7 +468,9 @@ The main tasks for this exercise are the following:
 
 1. In the **ConfigureServices** method, call the **AddMVC** method of the *services* parameter.
 
-2. In **Startup** class, in the **Configure** method, between the **app.UseStaticFiles** and the **app.Run** middleware, call the **UseMvcWithDefaultRoute** method of the *app* parameter.
+2. Pass *option => option.EnableEndpointRouting = false* as a parameter for **AddMVC**
+
+3. In **Startup** class, in the **Configure** method, between the **app.UseStaticFiles** and the **app.Run** middleware, call the **UseMvcWithDefaultRoute** method of the *app* parameter.
 
 ####	Task 2: Add a controller
 
