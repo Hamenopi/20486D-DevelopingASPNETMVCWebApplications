@@ -136,7 +136,7 @@ The main tasks for this exercise are as follows:
 
 18. Inside the **USING** statement block, assign the **fileBytes** variable the following value: **br.ReadBytes((int)fileOnDisk.Length)**.
 
-19. After the **USING** statement block, return a **FileResult** result by using the **File** method. Pass the following parameters to the **File** method: **fileBytes** and **requestedCity**. 
+19. After the **USING** statement block, return a **FileResult** result by using the **File** method. Pass the following parameters to the **File** method: **fileBytes** and **requestedCity.ImageMimeType**. 
 
 20. After the end of **IF** statement, add an **ELSE** statement.
 
