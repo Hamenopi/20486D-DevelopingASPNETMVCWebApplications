@@ -500,7 +500,7 @@ The main tasks for this exercise are as follows:
 1. In the **Startup** class, add a **using** statement for the following namespace:
    - **WorldJourney.Filters**
 
-2. At the end of the **ConfigureServices** method, call the **AddScoped<LogActionFilterAttribute>** method of the **services** parameter.
+2. At the end of the **ConfigureServices** method, call the **AddScoped&lt;LogActionFilterAttribute&gt;** method of the **services** parameter.
 
 3. In the **CityController** class, add a **using** statement for the following namespace:
    - **WorldJourney.Filters**
