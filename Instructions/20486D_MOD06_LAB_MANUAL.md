@@ -765,7 +765,7 @@ The main tasks for this exercise are as follows:
 
 12. Inside the **IF** statement code block, add a variable named *quantity* of type **int?** with the value of **service.GetButterflyFamilyQuantity(butterfly.ButterflyFamily.Value)**. 
 
-13. Add a variable named *quantity* of type **int?** with the value of **quantity + butterfly.Quantity**. 
+13. Add a variable named **sumQuantity** of type **int?** with the value of **quantity + butterfly.Quantity**. 
 
 14. Create a nested **IF** statement that checks whether the value of  **sumQuantity** is bigger than **_maxAmount**.
 
