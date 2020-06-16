@@ -484,7 +484,7 @@ The main tasks for this exercise are as follows:
 
 1. At the beginning of **Create.cshtml** view,  add a **@using** statement for the following namespace:
 
-   - **ButterfliesShop.Models.Butterfly**
+   - **ButterfliesShop.Models**
 
 2. Add a **@model** with the following information:
      - Type: **ButterfliesShop.Models.Butterfly**.
